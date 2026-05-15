@@ -7,9 +7,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky && husky install"
   },
   "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.4",
+    "prettier": "^3.8.3",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
@@ -24,7 +28,12 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
     "typescript": "~6.0.2",
-    "typescript-eslint": "^8.59.2",
-    "vite": "^8.0.12"
+    "typescript-eslint": "^8.59.3",
+    "vite": "^8.0.12",
+    "husky": "^8.0.0"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,html,css}": "prettier --write",
+    "src/**/*.{ts,tsx}": "eslint"
   }
 }
