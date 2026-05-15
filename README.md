@@ -27,6 +27,6 @@ This Projects how we can setup precommit hooks using husky for Prettier and ESLi
 
 ## Demo Link
 
-- Demo Link: 
+- Demo Link: https://practical-2-eslint-prettier.pages.dev/
 - Repository Link: https://github.com/Jenith-Panchal-Simform/Practical-2-ESLint-Prettier/
-- Pull Request Link: 
+- Pull Request Link: https://github.com/Jenith-Panchal-Simform/Practical-2-ESLint-Prettier/pull/1
